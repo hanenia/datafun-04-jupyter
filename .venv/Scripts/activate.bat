@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\berek\OneDrive\Documents\DATAFUN-04-JUPYTER\.venv
+=======
+set VIRTUAL_ENV=C:\Users\berek\datafun-04-jupyter\.venv
+>>>>>>> 5c5e376ee0d16426127adcd233c588699eb864d3
 
 if not defined PROMPT set PROMPT=$P$G
 
